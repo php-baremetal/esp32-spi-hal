@@ -1,0 +1,20 @@
+{
+    "name": "php-baremetal/esp32-spi-hal",
+    "description": "ESP32 implementation of the neutral SPI HAL (bm_spi_hal.h) over esp_driver_spi's spi_master.",
+    "type": "bm-hal",
+    "license": "MIT",
+    "authors": [
+        { "name": "Gianfrancesco Aurecchia", "email": "gianfri@aurecchia.com" }
+    ],
+    "provide": {
+        "php-baremetal/spi-hal": "1.0.0"
+    },
+    "extra": {
+        "baremetal": {
+            "platform": "esp32",
+            "idf-requires": [
+                "esp_driver_spi"
+            ]
+        }
+    }
+}
