@@ -4,7 +4,7 @@
     "type": "bm-hal",
     "license": "MIT",
     "authors": [
-        { "name": "Gianfrancesco Aurecchia", "email": "gianfri@aurecchia.com" }
+        { "name": "Gianfrancesco Aurecchia", "email": "gianfri@php-baremetal.com" }
     ],
     "provide": {
         "php-baremetal/spi-hal": "1.0.0"

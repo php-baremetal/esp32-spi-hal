@@ -14,7 +14,7 @@ over ESP-IDF's `spi_master` driver. It opens SPI hosts, attaches devices and run
 ## Install
 
 Projects do not require it. A project requires ext-spi, which requires the virtual `php-baremetal/spi-hal`;
-conductor reads the platform from `extra.baremetal.sdk` (`esp32@^1.0`) and adds this package while Composer
+conductor reads the platform from `extra.baremetal.sdk` (`esp32@^2.0`) and adds this package while Composer
 resolves:
 
 ```bash
